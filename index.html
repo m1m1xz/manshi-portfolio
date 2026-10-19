@@ -3,182 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manshi Parmar | My Little Corner of the Internet</title>
+  <title>Manshi Parmar | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Press+Start+2P&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Pixelify+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="navbar">
-    <a href="#home" class="logo">&#9733; manshi.exe</a>
-
-    <button class="menu-button" id="menuButton" aria-label="Open menu">&#9776;</button>
-
-    <nav>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#journey">Journey</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <header class="site-header">
+    <a class="logo" href="#home">
+      <img src="assets/icons/star.png" alt="">
+      <span>Manshi</span>
+    </a>
+    <button class="menu-button" id="menu-button" type="button">Menu</button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section id="home" class="home-section">
-    <span class="deco deco-1">&#10024;</span>
-    <span class="deco deco-2">&#9733;</span>
-    <span class="deco deco-3">&#10084;</span>
-    <span class="deco deco-4">&#10024;</span>
-    <span class="deco deco-5">&#9733;</span>
+  <section class="home" id="home">
+    <img class="deco float cloud-one" src="assets/icons/cloud.png" alt="">
+    <img class="deco float cloud-two" src="assets/icons/cloud.png" alt="">
+    <img class="deco float star-one" src="assets/icons/star.png" alt="">
+    <img class="deco float heart-one" src="assets/icons/heart.png" alt="">
+    <img class="deco float flower-one" src="assets/icons/flower.png" alt="">
 
-    <div class="hero-card">
-      <p class="pixel-label">&#9829; welcome to my page &#9829;</p>
-      <h1>Hello, I'm Manshi!</h1>
-      <h2>Computer Science Student | Data Science</h2>
-      <p>
-        I'm learning to code, building little projects, and exploring everything
-        technology has to offer. Come take a look around!
-      </p>
-      <a href="#about" class="button">Explore My World &#10024;</a>
-    </div>
-  </section>
-
-  <section id="about" class="about-section">
-    <div class="about-card">
-      <h2 class="section-title">About me</h2>
-      <p class="pixel-label">JSS University, Noida &bull; CS (Data Science)</p>
-
-      <p>
-        Curiosity is probably what keeps me interested in technology. I enjoy
-        understanding how things work, experimenting with new ideas, and learning
-        by building things myself. I'm exploring programming and web development,
-        working with technologies like C++, HTML, CSS, and JavaScript, and trying
-        to improve with every project I take on.
-      </p>
-      <p>
-        Hackathons have given me opportunities to work on ideas with a team, solve
-        problems, and learn beyond the classroom. I'm also part of the Outreach
-        Department at EDC JSSUN, where I've been exploring communication,
-        coordination, and the process of connecting people and ideas.
-      </p>
-      <p>
-        I'm still learning, experimenting, and figuring things out, and that's
-        what makes the journey exciting.
-      </p>
-      <div class="sticker-row">
-        <span class="sticker">C++</span>
-        <span class="sticker">HTML</span>
-        <span class="sticker">CSS</span>
-        <span class="sticker">JavaScript</span>
+    <div class="window">
+      <div class="window-bar">
+        <span class="dot yellow-dot"></span>
+        <span class="dot orange-dot"></span>
+        <span class="dot red-dot"></span>
+      </div>
+      <div class="window-body">
+        <div class="ribbon">
+          <img src="assets/icons/heart.png" alt="">
+          <img src="assets/icons/strawberry.png" alt="">
+          <img src="assets/icons/cherry.png" alt="">
+        </div>
+        <h1>Hello, I'm Manshi!</h1>
+        <p class="subtitle">Computer Science Student | Data Science</p>
+        <p>I love learning, writing code, building little projects and finding out how technology works.</p>
+        <a class="button" href="#about">Explore My World</a>
       </div>
     </div>
   </section>
 
-  <section id="projects" class="plain-section">
-    <h2 class="section-title">My Projects</h2>
-    <p class="section-note">A few things I've worked on while learning.</p>
-
-    <div class="card-grid">
-      <article class="project-card">
-        <span class="card-icon">&#128142;</span>
-        <h3>Jan Connect / Smart Political CRM</h3>
-        <p>
-          My India Innovates 2026 hackathon project, where I contributed as a
-          frontend lead.
-        </p>
-        <div class="card-links">
-          <a href="#" class="small-link">GitHub</a>
-          <a href="#" class="small-link">Live Demo</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <span class="card-icon">&#128176;</span>
-        <h3>WealthPass</h3>
-        <p>
-          A hackathon project built around a digital wealth-related concept.
-        </p>
-        <div class="card-links">
-          <a href="#" class="small-link">GitHub</a>
-          <a href="#" class="small-link">Live Demo</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <span class="card-icon">&#127800;</span>
-        <h3>Web Development Projects</h3>
-        <p>
-          My learning projects, built with HTML, CSS, and JavaScript as I
-          practise and improve.
-        </p>
-        <div class="card-links">
-          <a href="#" class="small-link">GitHub</a>
-          <a href="#" class="small-link">Live Demo</a>
-        </div>
-      </article>
+  <section class="about" id="about">
+    <div class="about-wrap">
+      <div class="paper">
+        <h2>About Me</h2>
+        <p class="school">Manshi Parmar, Computer Science (Data Science) at JSS University, Noida</p>
+        <p>Curiosity is probably what keeps me interested in technology. I enjoy understanding how things work, experimenting with new ideas, and learning by building things myself. I'm exploring programming and web development, working with technologies like C++, HTML, CSS, and JavaScript, and trying to improve with every project I take on.</p>
+        <p>Hackathons have given me opportunities to work on ideas with a team, solve problems, and learn beyond the classroom. I'm also part of the Outreach Department at EDC JSSUN, where I've been exploring communication, coordination, and the process of connecting people and ideas.</p>
+        <p>I'm still learning, experimenting, and figuring things out, and that's what makes the journey exciting.</p>
+      </div>
+      <img class="sticker sticker-one" src="assets/icons/strawberry.png" alt="">
+      <img class="sticker sticker-two" src="assets/icons/cherry.png" alt="">
     </div>
   </section>
 
-  <section id="journey" class="plain-section journey-section">
-    <h2 class="section-title">My Journey</h2>
-    <p class="section-note">A little timeline of how I'm learning.</p>
+  <section class="projects" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="card-grid">
 
-    <ul class="timeline">
-      <li class="timeline-item">
-        <span class="timeline-dot">&#9733;</span>
-        <div class="timeline-text">
-          <h3>Started at JSS University, Noida</h3>
-          <p>Studying Computer Science with a focus on Data Science.</p>
+      <article class="card pink-card">
+        <img src="assets/icons/heart.png" alt="">
+        <h3>Jan Connect / Smart Political CRM</h3>
+        <p>My India Innovates 2026 hackathon project, where I worked as a frontend lead.</p>
+        <div class="card-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live Demo</a>
         </div>
-      </li>
-      <li class="timeline-item">
-        <span class="timeline-dot">&#9829;</span>
-        <div class="timeline-text">
-          <h3>Joined EDC JSSUN</h3>
-          <p>Part of the Outreach Department, exploring communication and coordination.</p>
+      </article>
+
+      <article class="card blue-card">
+        <img src="assets/icons/cherry.png" alt="">
+        <h3>WealthPass</h3>
+        <p>A hackathon project built around a digital wealth-related idea.</p>
+        <div class="card-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live Demo</a>
         </div>
-      </li>
-      <li class="timeline-item">
-        <span class="timeline-dot">&#10024;</span>
-        <div class="timeline-text">
+      </article>
+
+      <article class="card green-card">
+        <img src="assets/icons/flower.png" alt="">
+        <h3>Web Development Projects</h3>
+        <p>My learning projects made with HTML, CSS and JavaScript.</p>
+        <div class="card-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live Demo</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="journey" id="journey">
+    <h2 class="section-title">My Journey</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <img src="assets/icons/flower.png" alt="">
+        <div>
+          <h3>Learning to code</h3>
+          <p>Exploring C++, HTML, CSS and JavaScript, one project at a time.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <img src="assets/icons/star.png" alt="">
+        <div>
           <h3>India Innovates 2026</h3>
           <p>Worked with a team on Jan Connect as a frontend lead.</p>
         </div>
-      </li>
-    </ul>
+      </div>
+
+      <div class="timeline-item">
+        <img src="assets/icons/strawberry.png" alt="">
+        <div>
+          <h3>EDC JSSUN</h3>
+          <p>Part of the Outreach Department, learning about communication and coordination.</p>
+        </div>
+      </div>
+
+    </div>
   </section>
 
-  <section id="contact" class="plain-section contact-section">
-    <h2 class="section-title">Say Hi!</h2>
-    <p class="section-note">
-      This form is a front-end demo. When you press Send, it opens your email
-      app with the message filled in. Nothing is stored on this website.
-    </p>
-
-    <form id="contactForm" class="contact-form" novalidate>
+  <section class="contact" id="contact">
+    <h2 class="section-title">Say Hi</h2>
+    <form class="contact-form" id="contact-form" novalidate>
       <label for="name">Name</label>
       <input type="text" id="name" name="name" placeholder="Your name">
-      <p class="error-message" id="nameError"></p>
+      <p class="error" id="name-error"></p>
 
       <label for="email">Email</label>
       <input type="email" id="email" name="email" placeholder="you@example.com">
-      <p class="error-message" id="emailError"></p>
+      <p class="error" id="email-error"></p>
 
       <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" placeholder="Write something nice..."></textarea>
-      <p class="error-message" id="messageError"></p>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+      <p class="error" id="message-error"></p>
 
-      <button type="submit" class="button">Send &#9829;</button>
-      <p class="form-status" id="formStatus"></p>
+      <button class="button" type="submit">Send Message</button>
+      <p class="form-note" id="form-note">This form is a front-end demo. Sending opens your email app with the message filled in. Nothing is saved on this website.</p>
     </form>
   </section>
 
-  <footer class="footer">
-    <p>&#9733; made with love by Manshi Parmar &#9733;</p>
-    <p class="pixel-label">thanks for visiting!</p>
+  <footer class="site-footer">
+    <div class="ribbon">
+      <img src="assets/icons/heart.png" alt="">
+      <img src="assets/icons/star.png" alt="">
+      <img src="assets/icons/cherry.png" alt="">
+      <img src="assets/icons/strawberry.png" alt="">
+      <img src="assets/icons/flower.png" alt="">
+    </div>
+    <p>Made by Manshi Parmar</p>
   </footer>
 
   <script src="script.js"></script>
