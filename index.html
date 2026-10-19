@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manshi Parmar | My Little Corner of the Internet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Press+Start+2P&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">&#9733; manshi.exe</a>
+
+    <button class="menu-button" id="menuButton" aria-label="Open menu">&#9776;</button>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <span class="deco deco-1">&#10024;</span>
+    <span class="deco deco-2">&#9733;</span>
+    <span class="deco deco-3">&#10084;</span>
+    <span class="deco deco-4">&#10024;</span>
+    <span class="deco deco-5">&#9733;</span>
+
+    <div class="hero-card">
+      <p class="pixel-label">&#9829; welcome to my page &#9829;</p>
+      <h1>Hello, I'm Manshi!</h1>
+      <h2>Computer Science Student | Data Science</h2>
+      <p>
+        I'm learning to code, building little projects, and exploring everything
+        technology has to offer. Come take a look around!
+      </p>
+      <a href="#about" class="button">Explore My World &#10024;</a>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="about-card">
+      <h2 class="section-title">About me</h2>
+      <p class="pixel-label">JSS University, Noida &bull; CS (Data Science)</p>
+
+      <p>
+        Curiosity is probably what keeps me interested in technology. I enjoy
+        understanding how things work, experimenting with new ideas, and learning
+        by building things myself. I'm exploring programming and web development,
+        working with technologies like C++, HTML, CSS, and JavaScript, and trying
+        to improve with every project I take on.
+      </p>
+      <p>
+        Hackathons have given me opportunities to work on ideas with a team, solve
+        problems, and learn beyond the classroom. I'm also part of the Outreach
+        Department at EDC JSSUN, where I've been exploring communication,
+        coordination, and the process of connecting people and ideas.
+      </p>
+      <p>
+        I'm still learning, experimenting, and figuring things out, and that's
+        what makes the journey exciting.
+      </p>
+      <div class="sticker-row">
+        <span class="sticker">C++</span>
+        <span class="sticker">HTML</span>
+        <span class="sticker">CSS</span>
+        <span class="sticker">JavaScript</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="plain-section">
+    <h2 class="section-title">My Projects</h2>
+    <p class="section-note">A few things I've worked on while learning.</p>
+
+    <div class="card-grid">
+      <article class="project-card">
+        <span class="card-icon">&#128142;</span>
+        <h3>Jan Connect / Smart Political CRM</h3>
+        <p>
+          My India Innovates 2026 hackathon project, where I contributed as a
+          frontend lead.
+        </p>
+        <div class="card-links">
+          <a href="#" class="small-link">GitHub</a>
+          <a href="#" class="small-link">Live Demo</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="card-icon">&#128176;</span>
+        <h3>WealthPass</h3>
+        <p>
+          A hackathon project built around a digital wealth-related concept.
+        </p>
+        <div class="card-links">
+          <a href="#" class="small-link">GitHub</a>
+          <a href="#" class="small-link">Live Demo</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="card-icon">&#127800;</span>
+        <h3>Web Development Projects</h3>
+        <p>
+          My learning projects, built with HTML, CSS, and JavaScript as I
+          practise and improve.
+        </p>
+        <div class="card-links">
+          <a href="#" class="small-link">GitHub</a>
+          <a href="#" class="small-link">Live Demo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="journey" class="plain-section journey-section">
+    <h2 class="section-title">My Journey</h2>
+    <p class="section-note">A little timeline of how I'm learning.</p>
+
+    <ul class="timeline">
+      <li class="timeline-item">
+        <span class="timeline-dot">&#9733;</span>
+        <div class="timeline-text">
+          <h3>Started at JSS University, Noida</h3>
+          <p>Studying Computer Science with a focus on Data Science.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-dot">&#9829;</span>
+        <div class="timeline-text">
+          <h3>Joined EDC JSSUN</h3>
+          <p>Part of the Outreach Department, exploring communication and coordination.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-dot">&#10024;</span>
+        <div class="timeline-text">
+          <h3>India Innovates 2026</h3>
+          <p>Worked with a team on Jan Connect as a frontend lead.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact" class="plain-section contact-section">
+    <h2 class="section-title">Say Hi!</h2>
+    <p class="section-note">
+      This form is a front-end demo. When you press Send, it opens your email
+      app with the message filled in. Nothing is stored on this website.
+    </p>
+
+    <form id="contactForm" class="contact-form" novalidate>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name">
+      <p class="error-message" id="nameError"></p>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com">
+      <p class="error-message" id="emailError"></p>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write something nice..."></textarea>
+      <p class="error-message" id="messageError"></p>
+
+      <button type="submit" class="button">Send &#9829;</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&#9733; made with love by Manshi Parmar &#9733;</p>
+    <p class="pixel-label">thanks for visiting!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
